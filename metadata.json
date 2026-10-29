@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sarphi Hospital - Memco More, Dhanbad",
+  "description": "Official website for Sarphi Hospital located at Memco More, Dhanbad, Jharkhand. Providing 24x7 emergency, critical care, multi-specialty consultations, modular operation theatres, and compassionate patient care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 450" width="100%" height="100%">
+  <defs>
+    <!-- Text arc path going over the top of the emblem -->
+    <path id="circleTextPath" d="M 52,280 A 168,168 0 1,1 388,280" fill="none" />
+  </defs>
+
+  <!-- Outer Deep Purple Ring -->
+  <circle cx="220" cy="195" r="190" fill="#2E083B" />
+  <circle cx="220" cy="195" r="142" fill="#FFFFFF" />
+
+  <!-- Circular Outer Text -->
+  <text fill="#FFFFFF" font-family="Plus Jakarta Sans, Arial, Helvetica, sans-serif" font-weight="900" font-size="22" letter-spacing="2.8">
+    <textPath href="#circleTextPath" startOffset="50%" text-anchor="middle">
+      THE FUTURE TRACK COMPUTER EDUCATION
+    </textPath>
+  </text>
+
+  <!-- Red Scalloped Rosette Seal -->
+  <path d="M 344.00,195.00 Q 356.82,213.01 339.77,227.09 Q 347.50,247.81 327.39,257.00 Q 329.48,279.01 307.68,282.68 Q 304.01,304.48 282.00,302.39 Q 272.81,322.50 252.09,314.77 Q 238.01,331.82 220.00,319.00 Q 201.99,331.82 187.91,314.77 Q 167.19,322.50 158.00,302.39 Q 135.99,304.48 132.32,282.68 Q 110.52,279.01 112.61,257.00 Q 92.50,247.81 100.23,227.09 Q 83.18,213.01 96.00,195.00 Q 83.18,176.99 100.23,162.91 Q 92.50,142.19 112.61,133.00 Q 110.52,110.99 132.32,107.32 Q 135.99,85.52 158.00,87.61 Q 167.19,67.50 187.91,75.23 Q 201.99,58.18 220.00,71.00 Q 238.01,58.18 252.09,75.23 Q 272.81,67.50 282.00,87.61 Q 304.01,85.52 307.68,107.32 Q 329.48,110.99 327.39,133.00 Q 347.50,142.19 339.77,162.91 Q 356.82,176.99 344.00,195.00 Z" fill="#D12A38" />
+
+  <!-- Inner White Disc -->
+  <circle cx="220" cy="195" r="110" fill="#FFFFFF" />
+  <!-- Inner Concentric Red & Purple Rings -->
+  <circle cx="220" cy="195" r="105" fill="none" stroke="#D12A38" stroke-width="2.5" />
+  <circle cx="220" cy="195" r="100" fill="none" stroke="#2E083B" stroke-width="1.8" />
+
+  <!-- Center Graphic: Monitor, Mouse & Cables -->
+  <g id="center-computer">
+    <!-- Monitor Outer Frame -->
+    <rect x="156" y="148" width="128" height="84" rx="8" ry="8" fill="none" stroke="#2E083B" stroke-width="6.5" />
+    
+    <!-- Monitor Stand Neck -->
+    <rect x="214" y="232" width="12" height="15" fill="#2E083B" />
+    
+    <!-- Monitor Stand Base -->
+    <path d="M 194,254 L 246,254 L 238,247 L 202,247 Z" fill="#2E083B" />
+
+    <!-- Two Swooshing Mouse Cables -->
+    <path d="M 144,222 C 148,246 195,248 226,218" fill="none" stroke="#2E083B" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 152,228 C 158,252 198,254 224,226" fill="none" stroke="#2E083B" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Computer Mouse -->
+    <g transform="translate(244, 198) rotate(-32)">
+      <ellipse cx="0" cy="0" rx="20" ry="15" fill="#2E083B" />
+      <!-- Mouse button split -->
+      <path d="M 0,-15 L 0,-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+      <path d="M -15,-1 C -8,-4 8,-4 15,-1" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+    </g>
+  </g>
+
+  <!-- Bottom Ribbon / Banner -->
+  <g id="bottom-ribbon">
+    <!-- Left Swallowtail Ribbon End -->
+    <polygon points="105,392 65,392 78,407 65,422 105,422" fill="#FFFFFF" stroke="#2E083B" stroke-width="2" stroke-linejoin="round" />
+    <polygon points="105,422 105,431 115,422" fill="#180420" />
+
+    <!-- Right Swallowtail Ribbon End -->
+    <polygon points="335,392 375,392 362,407 375,422 335,422" fill="#FFFFFF" stroke="#2E083B" stroke-width="2" stroke-linejoin="round" />
+    <polygon points="335,422 335,431 325,422" fill="#180420" />
+
+    <!-- Central Ribbon Body -->
+    <rect x="95" y="388" width="250" height="38" rx="2" fill="#FFFFFF" stroke="#2E083B" stroke-width="2.2" />
+
+    <!-- Left Star (Golden) -->
+    <g transform="translate(126, 407) scale(1.15)">
+      <path d="M 0,-10 L 2.9,-3.1 L 10,-2.6 L 4.6,2.2 L 6.2,9.5 L 0,5.8 L -6.2,9.5 L -4.6,2.2 L -10,-2.6 L -2.9,-3.1 Z" fill="#EAB308" />
+    </g>
+
+    <!-- Center Hindi Inscription: विद्या परमं बलम् -->
+    <text x="220" y="414" font-family="Plus Jakarta Sans, Arial, Helvetica, sans-serif" font-weight="bold" font-size="19" fill="#2E083B" text-anchor="middle" letter-spacing="0.5">
+      विद्या परमं बलम्
+    </text>
+
+    <!-- Right Star (Golden) -->
+    <g transform="translate(314, 407) scale(1.15)">
+      <path d="M 0,-10 L 2.9,-3.1 L 10,-2.6 L 4.6,2.2 L 6.2,9.5 L 0,5.8 L -6.2,9.5 L -4.6,2.2 L -10,-2.6 L -2.9,-3.1 Z" fill="#EAB308" />
+    </g>
+  </g>
+</svg>
