@@ -44,7 +44,7 @@ export const INITIAL_CMS_CONFIG: CmsConfig = {
     announcementNotice: '24×7 Healthcare Support | Memco More, Dhanbad',
     eyebrowHindi: 'बेस्ट हॉस्पिटल इन धनबाद',
     eyebrowEnglish: 'Best Hospital in Dhanbad',
-    headlineMain: 'बेस्ट हॉस्पिटल इन धनबाद',
+    headlineMain: 'बेस्ट हॉस्पिटल इन रांची — Best Hospital in Ranchi',
     headlineSub1: 'Compassionate Care.',
     headlineSub2: 'Advanced Healthcare. Closer to You.',
     description: 'Sarphi Hospital is committed to providing accessible, reliable and patient-focused healthcare services for individuals and families in Dhanbad.',

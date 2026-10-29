@@ -79,8 +79,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 id="hero-title"
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-[50px] font-extrabold text-[#0F172A] tracking-tight leading-[1.16] text-balance"
               >
-                <span className="text-[#0B4F6C] block text-2xl sm:text-3xl md:text-4xl font-black mb-1.5 tracking-normal">
-                  {hero.headlineMain || 'बेस्ट हॉस्पिटल इन धनबाद'}
+                <span className="text-[#0B4F6C] block text-2xl sm:text-3xl md:text-4xl font-black mb-2 tracking-tight">
+                  {hero.headlineMain && hero.headlineMain !== 'बेस्ट हॉस्पिटल इन धनबाद'
+                    ? hero.headlineMain
+                    : 'बेस्ट हॉस्पिटल इन रांची — Best Hospital in Ranchi'}
                 </span>
                 {hero.headlineSub1 || 'Compassionate Care.'}<br />
                 {hero.headlineSub2 || 'Advanced Healthcare. Closer to You.'}
